@@ -48,10 +48,12 @@ class HomeView extends App.BaseView {
     private addEvent(): void {
         this.ui.on(Laya.Event.CLICK, this, this.clickHandler);
         this.ui.gameTpsBtn.on(Laya.Event.CLICK, this, this.showGameTipsModal)
+        this.ui.btnRank.on(Laya.Event.CLICK,this,this.showRankBox)
     }
     private removeEvent(): void {
         this.ui.off(Laya.Event.CLICK, this, this.clickHandler);
-        this.ui.gameTpsBtn.off(Laya.Event.CLICK, this, this.showGameTipsModal)        
+        this.ui.gameTpsBtn.off(Laya.Event.CLICK, this, this.showGameTipsModal)   
+        this.ui.btnRank.off(Laya.Event.CLICK,this,this.showRankBox)             
     }
 
     //    功能展示
@@ -80,11 +82,14 @@ class HomeView extends App.BaseView {
     }
      // 显示游戏规则弹窗
      private showGameTipsModal(): void {
-        //  console.log(22)
-        // let dialog: Dialog = new Dialog();
-        // dialog.show();
+        GameTipsBoxControl.show()
      }
 
+     // 显示游戏排行榜
+     private showRankBox(): void {
+        RankControl.show({abc:1});
+        HomeControl.hide()
+     }
     //==================== Event ====================
 
     private clickHandler(e: Laya.Event): void {

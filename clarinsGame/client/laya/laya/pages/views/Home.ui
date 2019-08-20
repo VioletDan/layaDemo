@@ -2,7 +2,7 @@
     "x":0,
     "type":"View",
     "selectedBox":63,
-    "selecteID":76,
+    "selecteID":69,
     "referenceLines":[
         {
             "value":-662,
@@ -226,9 +226,9 @@
                 {
                     "x":30,
                     "type":"Image",
-                    "props":{"y":508,"x":83,"skin":"index/index_btn_rank.png","name":"btnPlay","left":83,"bottom":110},
+                    "props":{"y":508,"x":83,"var":"btnRank","skin":"index/index_btn_rank.png","name":"btnRank","left":83,"bottom":110},
                     "nodeParent":63,
-                    "label":"Image(btnPlay)",
+                    "label":"Image(btnRank)",
                     "isOpen":true,
                     "isDirectory":false,
                     "isAniNode":true,
@@ -241,9 +241,9 @@
                 {
                     "x":30,
                     "type":"Image",
-                    "props":{"y":508,"x":411,"skin":"index/index_btn_play.png","right":83,"name":"btnRank","bottom":110},
+                    "props":{"y":508,"x":411,"var":"btnPlay","skin":"index/index_btn_play.png","right":83,"name":"btnPlay","bottom":110},
                     "nodeParent":63,
-                    "label":"Image(btnRank)",
+                    "label":"Image(btnPlay)",
                     "isOpen":true,
                     "isDirectory":false,
                     "isAniNode":true,

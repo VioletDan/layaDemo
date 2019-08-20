@@ -2,10 +2,10 @@
     "x":0,
     "type":"Dialog",
     "selectedBox":1,
-    "selecteID":3,
-    "props":{"width":750,"sceneColor":"#000000","name":"gameTipsBox","height":1334},
+    "selecteID":4,
+    "props":{"width":750,"sceneColor":"#000000","name":"bg","mouseThrough":true,"height":1334},
     "nodeParent":-1,
-    "label":"Dialog(gameTipsBox)",
+    "label":"Dialog(bg)",
     "isOpen":true,
     "isDirectory":true,
     "isAniNode":true,
@@ -14,29 +14,40 @@
     "child":[
         {
             "x":15,
-            "type":"Image",
-            "props":{"y":22,"x":339,"skin":"gameTipsBox/index_close.png","name":"close"},
+            "type":"Box",
+            "props":{"y":22,"x":44,"name":"main"},
             "nodeParent":1,
-            "label":"Image(close)",
-            "isDirectory":false,
+            "label":"Box(main)",
+            "isOpen":null,
+            "isDirectory":true,
             "isAniNode":true,
-            "hasChild":false,
-            "compId":2,
+            "hasChild":true,
+            "compId":4,
             "child":[
-                ]
-        },
-        {
-            "x":15,
-            "type":"Image",
-            "props":{"y":122,"x":44,"skin":"gameTipsBox/index_des_bg.png"},
-            "nodeParent":1,
-            "label":"Image",
-            "isDirectory":false,
-            "isAniNode":true,
-            "hasChild":false,
-            "compId":3,
-            "child":[
-                ]
+                {
+                    "type":"Image",
+                    "props":{"x":295,"var":"closeBtn","skin":"gameTipsBox/index_close.png","name":"closeBtn"},
+                    "nodeParent":4,
+                    "label":"Image(closeBtn)",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":2,
+                    "child":[
+                        ]
+                },
+                {
+                    "type":"Image",
+                    "props":{"y":100,"skin":"gameTipsBox/index_des_bg.png"},
+                    "nodeParent":4,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":3,
+                    "child":[
+                        ]
+                }]
         }],
     "animations":[
         {
