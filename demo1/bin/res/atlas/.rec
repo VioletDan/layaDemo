@@ -33,3 +33,13 @@ P B9680947 vscroll$up.png
 P 7E990267 vscroll.png
 P E466EB1C vslider$bar.png
 P 2BFF7046 vslider.png
+D template
+D template/List
+P 140B5401 arrow.png
+P 5EDC128C label.png
+P 173F1169 message icon_57x57.png
+R 11909C67 SimpleListBoxItemBackground.png
+P 52107B89 vscroll$bar.png
+P E26B933E vscroll$down.png
+P B9680947 vscroll$up.png
+P 7E990267 vscroll.png

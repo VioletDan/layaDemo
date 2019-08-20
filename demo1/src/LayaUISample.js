@@ -67,6 +67,13 @@ function beginLoad(){
 
 function onLoaded()
 {
-	Laya.stage.addChild(new TestUI());
+	// Laya.stage.addChild(new TestUI());
+	var dd = new demo2UI();
+	dd.dd
+	dd.button1.on(Laya.Event.CLICK, this, lalal);
+	Laya.stage.addChild(dd);
+}
+function lalal(e){
+	console.log(e);
 }
 

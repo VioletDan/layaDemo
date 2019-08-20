@@ -1,0 +1,42 @@
+{
+    "frames": {
+        "List.png": {
+            "frame": {
+                "h": 115,
+                "idx": 0,
+                "w": 138,
+                "x": 121,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 115,
+                "w": 138
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "Navigator.png": {
+            "frame": {
+                "h": 145,
+                "idx": 0,
+                "w": 120,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 145,
+                "w": 133
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "template.png",
+        "prefix": "res/atlas/template/"
+    }
+}

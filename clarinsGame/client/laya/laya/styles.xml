@@ -1,0 +1,16 @@
+<res>
+   <item name="index/index_bg.jpg" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="index/index_bowl2.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="index/index_bowl.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="index/index_cloud.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="index/index_des_bg.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="index/index_pro.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="index/index_rank_bg.jpg" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="index/index_rank_border.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="index/index_shine.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="index/index_title2.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="index/share_pro.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="index/index_btn_play.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="index/index_btn_rank.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+   <item name="index/index_title.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0" scale="0"/>
+</res>

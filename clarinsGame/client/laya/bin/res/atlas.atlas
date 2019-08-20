@@ -1,0 +1,93 @@
+{
+    "frames": {
+        "common.png": {
+            "frame": {
+                "h": 30,
+                "idx": 0,
+                "w": 30,
+                "x": 858,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 30,
+                "w": 30
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "comp.png": {
+            "frame": {
+                "h": 256,
+                "idx": 0,
+                "w": 416,
+                "x": 441,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 256,
+                "w": 416
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "dandan.png": {
+            "frame": {
+                "h": 440,
+                "idx": 0,
+                "w": 440,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 440,
+                "w": 440
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "loading.png": {
+            "frame": {
+                "h": 179,
+                "idx": 0,
+                "w": 251,
+                "x": 441,
+                "y": 257
+            },
+            "sourceSize": {
+                "h": 181,
+                "w": 254
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "template.png": {
+            "frame": {
+                "h": 145,
+                "idx": 0,
+                "w": 259,
+                "x": 693,
+                "y": 257
+            },
+            "sourceSize": {
+                "h": 145,
+                "w": 259
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "atlas.png",
+        "prefix": "res/atlas/"
+    }
+}
