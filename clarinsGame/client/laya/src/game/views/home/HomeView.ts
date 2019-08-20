@@ -88,7 +88,7 @@ class HomeView extends App.BaseView {
      // 显示游戏排行榜
      private showRankBox(): void {
         RankControl.show({abc:1});
-        HomeControl.hide()
+        HomeControl.hide()  
      }
     //==================== Event ====================
 

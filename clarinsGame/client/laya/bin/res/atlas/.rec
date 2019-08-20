@@ -107,7 +107,6 @@ P 27005BA7 index_des_bg.png
 D index
 P 2E596F32 hand.png
 P D500AA2C index_bg.jpg
-P D1F09B07 index_bowl.png
 P 302C2934 index_bowl2.png
 P 75B6FE97 index_btn_play.png
 P E66C645B index_btn_rank.png
@@ -116,7 +115,16 @@ P 84B71C7A index_des.png
 P 78A28B9B index_lh.png
 P C413568A index_pig.png
 P 397D839D index_pig_ga.png
-P F65C7CE2 index_pro.png
+P AC4D7E52 index_shine.png
+P 9AA32744 index_title.png
+P 3FB15685 index_title2.png
+P 3EA8094E logo.png
+P 1ABE35F9 share_arr.png
+P 5D41623D share_pro.png
+D loading
+P DD40A912 logo.jpg
+P FE54AAAC title.png
+D rank
 P 00CCACC4 index_rank_bg.jpg
 P F58EFAE0 index_rank_border.png
 P 350C1C30 index_rank_first.png
@@ -126,16 +134,7 @@ P 30FAB2D6 index_rank_pro.png
 P E47A633D index_rank_second.png
 P 157D367A index_rank_third.png
 P 8D1CBAF2 index_rank_top.png
-P AC4D7E52 index_shine.png
-P 9AA32744 index_title.png
-P 3FB15685 index_title2.png
 P 3EA8094E logo.png
-P 1ABE35F9 share_arr.png
-P 5D41623D share_pro.png
-P 2EBB57AA test_top.png
-D loading
-P DD40A912 logo.jpg
-P FE54AAAC title.png
 D result
 P 14DEBBBA close_cricle.png
 P 6CE03D44 rbtn_back_index.png

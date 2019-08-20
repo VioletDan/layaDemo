@@ -99,7 +99,7 @@ module ui.views {
     export class GameTipsBoxUI extends Dialog {
 		public closeBtn:Laya.Image;
 
-        public static  uiView:any ={"type":"Dialog","props":{"width":750,"name":"bg","mouseThrough":true,"height":1334},"child":[{"type":"Box","props":{"y":22,"x":44,"name":"main"},"child":[{"type":"Image","props":{"x":295,"var":"closeBtn","skin":"gameTipsBox/index_close.png","name":"closeBtn"}},{"type":"Image","props":{"y":100,"skin":"gameTipsBox/index_des_bg.png"}}]}]};
+        public static  uiView:any ={"type":"Dialog","props":{"width":750,"name":"bg","mouseThrough":true,"height":1334},"child":[{"type":"Box","props":{"y":21,"x":44,"name":"main"},"child":[{"type":"Image","props":{"x":295,"var":"closeBtn","skin":"gameTipsBox/index_close.png","name":"closeBtn"}},{"type":"Image","props":{"y":100,"skin":"gameTipsBox/index_des_bg.png"}}]}]};
         constructor(){ super()}
         createChildren():void {
         
@@ -155,7 +155,7 @@ module ui.views {
 		public btnIndex:Laya.Button;
 		public list:Laya.List;
 
-        public static  uiView:any ={"type":"View","props":{"width":750,"height":1334},"child":[{"type":"Rect","props":{"y":0,"x":0,"width":750,"name":"bg","lineWidth":1,"height":1334,"fillColor":"#d2ffd4"}},{"type":"Text","props":{"y":200,"x":0,"width":750,"text":"排行榜","fontSize":40,"color":"#000000","align":"center"}},{"type":"Button","props":{"y":1076,"x":237,"width":300,"var":"btnIndex","skin":"comp/button.png","sizeGrid":"6,6,6,6","labelSize":30,"label":"返回首页","height":120}},{"type":"List","props":{"y":317,"x":171,"width":410,"var":"list","vScrollBarSkin":"comp/vscroll.png","repeatX":1,"height":684},"child":[{"type":"Box","props":{"y":0,"x":0,"width":112,"name":"render","height":30},"child":[{"type":"Label","props":{"y":5,"x":26,"width":78,"text":"this is a list","skin":"comp/label.png","name":"label","height":20,"fontSize":14}},{"type":"Clip","props":{"y":2,"x":0,"skin":"comp/clip_num.png","name":"clip","clipX":10}}]}]}]};
+        public static  uiView:any ={"type":"View","props":{"width":750,"name":"rankBox","height":1334},"child":[{"type":"Rect","props":{"y":-2,"x":0,"width":750,"name":"bg","lineWidth":1,"height":1334,"fillColor":"#d2ffd4"}},{"type":"Text","props":{"y":200,"x":0,"width":750,"text":"排行榜","fontSize":40,"color":"#000000","align":"center"}},{"type":"Button","props":{"y":1076,"x":237,"width":356,"var":"btnIndex","skin":"rank/index_rank_play.png","sizeGrid":"6,6,-32,6","labelSize":30,"height":86}},{"type":"List","props":{"y":317,"x":171,"width":410,"var":"list","vScrollBarSkin":"comp/vscroll.png","repeatX":1,"height":684},"child":[{"type":"Box","props":{"y":0,"x":0,"width":112,"name":"render","height":30},"child":[{"type":"Label","props":{"y":5,"x":26,"width":78,"text":"this is a list","skin":"comp/label.png","name":"label","height":20,"fontSize":14}},{"type":"Clip","props":{"y":2,"x":0,"skin":"comp/clip_num.png","name":"clip","clipX":10}}]}]}]};
         constructor(){ super()}
         createChildren():void {
         			View.regComponent("Text",laya.display.Text);
