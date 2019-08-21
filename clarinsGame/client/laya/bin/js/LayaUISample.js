@@ -41,6 +41,7 @@ var GameMain = /** @class */ (function () {
         resource.push(GameConfig.Game);
         resource.push(GameConfig.Result);
         resource.push(GameConfig.gameTipsBox); //弹窗规则
+        resource.push(GameConfig.Rank); //排行榜
         //这里添加默认的组件UI 如果有默认进入首页 建议在这里加上 首页的素材
         Laya.loader.load(resource, Laya.Handler.create(this, this.onComplete), Laya.Handler.create(this, this.onLoading));
     };

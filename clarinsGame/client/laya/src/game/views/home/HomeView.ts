@@ -49,11 +49,13 @@ class HomeView extends App.BaseView {
         this.ui.on(Laya.Event.CLICK, this, this.clickHandler);
         this.ui.gameTpsBtn.on(Laya.Event.CLICK, this, this.showGameTipsModal)
         this.ui.btnRank.on(Laya.Event.CLICK,this,this.showRankBox)
+        this.ui.btnPlay.on(Laya.Event.CLICK,this,this.showGameBox)        
     }
     private removeEvent(): void {
         this.ui.off(Laya.Event.CLICK, this, this.clickHandler);
         this.ui.gameTpsBtn.off(Laya.Event.CLICK, this, this.showGameTipsModal)   
-        this.ui.btnRank.off(Laya.Event.CLICK,this,this.showRankBox)             
+        this.ui.btnRank.off(Laya.Event.CLICK,this,this.showRankBox)     
+        this.ui.btnPlay.on(Laya.Event.CLICK,this,this.showGameBox)                        
     }
 
     //    功能展示
@@ -88,6 +90,12 @@ class HomeView extends App.BaseView {
      // 显示游戏排行榜
      private showRankBox(): void {
         RankControl.show({abc:1});
+        HomeControl.hide()  
+     }
+
+     // 显示游戏盒子
+     private showGameBox(): void {
+        GameControl.show();
         HomeControl.hide()  
      }
     //==================== Event ====================

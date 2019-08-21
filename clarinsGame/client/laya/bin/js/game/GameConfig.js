@@ -17,6 +17,8 @@ var GameConfig = /** @class */ (function () {
     GameConfig.Result = { url: "res/atlas/Result.atlas", type: Laya.Loader.ATLAS };
     //gameTipsBox
     GameConfig.gameTipsBox = { url: "res/atlas/gameTipsBox.atlas", type: Laya.Loader.ATLAS };
+    //Rank
+    GameConfig.Rank = { url: "res/atlas/rank.atlas", type: Laya.Loader.ATLAS };
     return GameConfig;
 }());
 //# sourceMappingURL=GameConfig.js.map

@@ -26,5 +26,7 @@ class GameConfig {
     //gameTipsBox
     public static gameTipsBox = { url: "res/atlas/gameTipsBox.atlas", type: Laya.Loader.ATLAS };
     
+    //Rank
+    public static Rank = { url: "res/atlas/rank.atlas", type: Laya.Loader.ATLAS };
 
 }

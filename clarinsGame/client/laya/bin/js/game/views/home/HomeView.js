@@ -50,11 +50,13 @@ var HomeView = /** @class */ (function (_super) {
         this.ui.on(Laya.Event.CLICK, this, this.clickHandler);
         this.ui.gameTpsBtn.on(Laya.Event.CLICK, this, this.showGameTipsModal);
         this.ui.btnRank.on(Laya.Event.CLICK, this, this.showRankBox);
+        this.ui.btnPlay.on(Laya.Event.CLICK, this, this.showGameBox);
     };
     HomeView.prototype.removeEvent = function () {
         this.ui.off(Laya.Event.CLICK, this, this.clickHandler);
         this.ui.gameTpsBtn.off(Laya.Event.CLICK, this, this.showGameTipsModal);
         this.ui.btnRank.off(Laya.Event.CLICK, this, this.showRankBox);
+        this.ui.btnPlay.on(Laya.Event.CLICK, this, this.showGameBox);
     };
     //    功能展示
     HomeView.prototype.showLoading = function () {
@@ -92,6 +94,11 @@ var HomeView = /** @class */ (function (_super) {
     // 显示游戏排行榜
     HomeView.prototype.showRankBox = function () {
         RankControl.show({ abc: 1 });
+        HomeControl.hide();
+    };
+    // 显示游戏盒子
+    HomeView.prototype.showGameBox = function () {
+        GameControl.show();
         HomeControl.hide();
     };
     //==================== Event ====================

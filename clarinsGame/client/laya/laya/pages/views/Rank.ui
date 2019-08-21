@@ -1,8 +1,19 @@
 {
     "x":0,
     "type":"View",
-    "selectedBox":1,
-    "selecteID":2,
+    "selectedBox":14,
+    "selecteID":45,
+    "referenceLines":[
+        {
+            "value":-149,
+            "type":1,
+            "id":1
+        },
+        {
+            "value":-149,
+            "type":1,
+            "id":2
+        }],
     "props":{"width":750,"sceneColor":"#000000","name":"rankBox","height":1334},
     "nodeParent":-1,
     "label":"View(rankBox)",
@@ -15,7 +26,7 @@
         {
             "x":15,
             "type":"Rect",
-            "props":{"y":-2,"x":0,"width":750,"name":"bg","lineWidth":1,"height":1334,"fillColor":"#d2ffd4"},
+            "props":{"y":-2,"x":0,"width":750,"name":"bg","lineWidth":1,"height":1334,"fillColor":"#fa791c"},
             "nodeParent":1,
             "label":"Rect(bg)",
             "isDirectory":false,
@@ -27,77 +38,239 @@
         },
         {
             "x":15,
-            "type":"Text",
-            "props":{"y":200,"x":0,"width":750,"text":"排行榜","fontSize":40,"color":"#000000","align":"center"},
+            "type":"Image",
+            "props":{"y":0,"x":0,"width":750,"skin":"rank/index_rank_bg.jpg","name":"bg","height":1334},
             "nodeParent":1,
-            "label":"Text",
+            "label":"Image(bg)",
             "isDirectory":false,
             "isAniNode":true,
             "hasChild":false,
-            "compId":3,
+            "compId":10,
             "child":[
                 ]
         },
         {
             "x":15,
-            "type":"Button",
-            "props":{"y":1076,"x":237,"width":356,"var":"btnIndex","skin":"rank/index_rank_play.png","sizeGrid":"6,6,-32,6","labelSize":30,"height":86},
+            "type":"Image",
+            "props":{"y":37,"x":28,"width":230,"skin":"rank/logo.png","name":"logo","height":165},
             "nodeParent":1,
-            "label":"Button(btnIndex)",
+            "label":"Image(logo)",
             "isDirectory":false,
             "isAniNode":true,
             "hasChild":false,
-            "compId":4,
+            "compId":11,
             "child":[
                 ]
         },
         {
             "x":15,
-            "type":"List",
-            "props":{"y":317,"x":171,"width":410,"var":"list","vScrollBarSkin":"comp/vscroll.png","repeatX":1,"height":684},
+            "type":"Box",
+            "props":{"y":95,"x":95,"name":"main"},
             "nodeParent":1,
-            "label":"List(list)",
-            "isOpen":false,
+            "label":"Box(main)",
+            "isOpen":true,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
-            "compId":5,
+            "compId":14,
             "child":[
                 {
-                    "type":"Box",
-                    "props":{"y":0,"x":0,"width":112,"name":"render","height":30},
-                    "nodeParent":5,
-                    "label":"Box(render)",
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":110,"x":-1,"skin":"rank/index_rank_border.png"},
+                    "nodeParent":14,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":12,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":0,"x":315,"skin":"rank/index_rank_pro.png"},
+                    "nodeParent":14,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":13,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":160,"x":71,"skin":"rank/index_rank_top.png","name":"title"},
+                    "nodeParent":14,
+                    "label":"Image(title)",
+                    "isOpen":true,
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":15,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"List",
+                    "props":{"y":244,"x":96,"width":393,"var":"rankList","vScrollBarSkin":"comp/vscroll.png","height":609},
+                    "nodeParent":14,
+                    "label":"List(rankList)",
                     "isOpen":true,
                     "isDirectory":true,
-                    "isAniNode":false,
+                    "isAniNode":true,
                     "hasChild":true,
-                    "compId":6,
+                    "compId":45,
                     "child":[
                         {
-                            "type":"Label",
-                            "props":{"y":5,"x":26,"width":78,"text":"this is a list","skin":"comp/label.png","name":"label","height":20,"fontSize":14},
-                            "nodeParent":6,
-                            "label":"Label(label)",
-                            "isDirectory":false,
+                            "x":45,
+                            "type":"Box",
+                            "props":{"renderType":"render","name":"r1"},
+                            "nodeParent":45,
+                            "label":"Box(r1)",
+                            "isOpen":true,
+                            "isDirectory":true,
                             "isAniNode":false,
-                            "hasChild":false,
-                            "compId":7,
+                            "hasChild":true,
+                            "compId":26,
                             "child":[
-                                ]
-                        },
-                        {
-                            "type":"Clip",
-                            "props":{"y":2,"x":0,"skin":"comp/clip_num.png","name":"clip","clipX":10},
-                            "nodeParent":6,
-                            "label":"Clip(clip)",
-                            "isDirectory":false,
-                            "isAniNode":false,
-                            "hasChild":false,
-                            "compId":8,
-                            "child":[
-                                ]
+                                {
+                                    "x":60,
+                                    "type":"Image",
+                                    "props":{"y":11,"x":2,"skin":"rank/index_border.png","name":"border"},
+                                    "nodeParent":26,
+                                    "label":"Image(border)",
+                                    "isDirectory":false,
+                                    "isAniNode":false,
+                                    "hasChild":false,
+                                    "compId":23,
+                                    "child":[
+                                        ]
+                                },
+                                {
+                                    "x":60,
+                                    "type":"Label",
+                                    "props":{"y":9,"x":100,"wordWrap":false,"width":250,"valign":"middle","text":"123","overflow":"hidden","name":"nameTF","height":49,"fontSize":30,"color":"#373030","align":"left"},
+                                    "nodeParent":26,
+                                    "label":"Label(nameTF)",
+                                    "isDirectory":false,
+                                    "isAniNode":false,
+                                    "hasChild":false,
+                                    "compId":24,
+                                    "child":[
+                                        ]
+                                },
+                                {
+                                    "x":60,
+                                    "type":"Label",
+                                    "props":{"y":9,"x":256,"wordWrap":false,"width":100,"valign":"middle","text":"123","overflow":"hidden","name":"scoreTF","height":49,"fontSize":30,"color":"#373030","align":"center"},
+                                    "nodeParent":26,
+                                    "label":"Label(scoreTF)",
+                                    "isDirectory":false,
+                                    "isAniNode":false,
+                                    "hasChild":false,
+                                    "compId":52,
+                                    "child":[
+                                        ]
+                                },
+                                {
+                                    "x":60,
+                                    "type":"Image",
+                                    "props":{"y":-1,"x":15,"skin":"rank/index_rank_first.png","name":"r1"},
+                                    "nodeParent":26,
+                                    "label":"Image(r1)",
+                                    "isDirectory":false,
+                                    "isAniNode":false,
+                                    "hasChild":false,
+                                    "compId":25,
+                                    "child":[
+                                        ]
+                                },
+                                {
+                                    "x":60,
+                                    "type":"Image",
+                                    "props":{"y":-1,"x":15,"skin":"rank/index_rank_second.png","name":"r2"},
+                                    "nodeParent":26,
+                                    "label":"Image(r2)",
+                                    "isDirectory":false,
+                                    "isAniNode":false,
+                                    "hasChild":false,
+                                    "compId":48,
+                                    "child":[
+                                        ]
+                                },
+                                {
+                                    "x":60,
+                                    "type":"Image",
+                                    "props":{"y":-1,"x":15,"skin":"rank/index_rank_third.png","name":"r3"},
+                                    "nodeParent":26,
+                                    "label":"Image(r3)",
+                                    "isDirectory":false,
+                                    "isAniNode":false,
+                                    "hasChild":false,
+                                    "compId":49,
+                                    "child":[
+                                        ]
+                                },
+                                {
+                                    "x":60,
+                                    "type":"Clip",
+                                    "props":{"y":20,"x":20,"width":24,"skin":"comp/clip_num.png","name":"rank","height":27,"clipX":10},
+                                    "nodeParent":26,
+                                    "label":"Clip(rank)",
+                                    "isOpen":false,
+                                    "isDirectory":false,
+                                    "isAniNode":false,
+                                    "hasChild":false,
+                                    "compId":51,
+                                    "child":[
+                                        ]
+                                },
+                                {
+                                    "x":60,
+                                    "type":"Clip",
+                                    "props":{"y":20,"x":50,"skin":"comp/clip_num.png","name":"rank2","clipX":10},
+                                    "nodeParent":26,
+                                    "label":"Clip(rank2)",
+                                    "isDirectory":false,
+                                    "isAniNode":false,
+                                    "hasChild":false,
+                                    "compId":53,
+                                    "child":[
+                                        ],
+                                    "$HIDDEN":false
+                                }]
                         }]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":672,"x":472,"skin":"rank/index_rank_lh.png"},
+                    "nodeParent":14,
+                    "label":"Image",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":46,
+                    "child":[
+                        ]
+                },
+                {
+                    "x":30,
+                    "type":"Image",
+                    "props":{"y":947,"x":98,"var":"btnPlay","skin":"rank/index_rank_play.png","name":"btnPlay"},
+                    "nodeParent":14,
+                    "label":"Image(btnPlay)",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":47,
+                    "child":[
+                        ]
                 }]
         }],
     "animations":[
