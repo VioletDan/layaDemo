@@ -176,8 +176,6 @@ var GameView = /** @class */ (function (_super) {
         var dragHeightLimit = this.ui.Qplayer.height;
         this.dragRegion = new Laya.Rectangle(0, this.ui.Qplayer.y, dragWidthLimit, dragHeightLimit);
         console.log(this.dragRegion);
-        //画出拖动限制区域
-        Laya.stage.graphics.drawRect(this.dragRegion.x, this.dragRegion.y, this.dragRegion.width, this.dragRegion.height, null, "#FFFFFF", 2);
     };
     GameView.prototype.onStartDrag = function (e) {
         //鼠标按下开始拖拽(设置了拖动区域和超界弹回的滑动效果)

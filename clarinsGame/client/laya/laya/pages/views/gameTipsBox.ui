@@ -1,8 +1,8 @@
 {
     "x":0,
     "type":"Dialog",
-    "selectedBox":1,
-    "selecteID":4,
+    "selectedBox":4,
+    "selecteID":3,
     "props":{"width":750,"sceneColor":"#000000","name":"bg","mouseThrough":true,"height":1334},
     "nodeParent":-1,
     "label":"Dialog(bg)",
@@ -40,7 +40,7 @@
                 {
                     "x":30,
                     "type":"Image",
-                    "props":{"y":100,"skin":"gameTipsBox/index_des_bg.png"},
+                    "props":{"y":99,"skin":"gameTipsBox/index_des_bg.png"},
                     "nodeParent":4,
                     "label":"Image",
                     "isDirectory":false,

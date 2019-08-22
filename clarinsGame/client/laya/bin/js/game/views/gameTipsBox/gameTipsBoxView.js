@@ -59,6 +59,7 @@ var GameTipsBoxView = /** @class */ (function (_super) {
         this.ui.closeBtn.off(Laya.Event.CLICK, this, this.clickHandler);
     };
     //==================== Event ====================
+    //关闭弹窗
     GameTipsBoxView.prototype.clickHandler = function (e) {
         this.ui.close();
     };

@@ -54,6 +54,7 @@ class GameTipsBoxView extends App.BaseView {
 	
     //==================== Event ====================
 
+    //关闭弹窗
     private clickHandler(e: Laya.Event): void {
         this.ui.close()
     }
