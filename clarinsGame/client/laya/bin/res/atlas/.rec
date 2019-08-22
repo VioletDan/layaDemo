@@ -58,8 +58,6 @@ P C9643CAF game_axis_bg$bar.png
 P 09BE6D80 game_axis_bg.png
 P C149E4E3 game_bad_pig.png
 P C05ED567 game_bad_pig2.png
-P A90DD1AD game_bad_pig_wingL.png
-P DF8DD72E game_bad_pig_wingR.png
 P 61C84AE2 game_bowl_body.png
 P C439D474 game_bowl_top.png
 P 6612D8AE game_clock.png
@@ -75,19 +73,22 @@ P B0ECD625 level_tip3.png
 P 0FFDB077 person.png
 P AC044B1B person2.png
 P 6124B417 pro1.png
-P C7CE29DB pro10.png
 P CB58C389 pro2.png
 P 99B3D97C pro3.png
 P 08306B37 pro4.png
 P 7B9959C1 pro5.png
-P A05C884D pro6.png
-P C7B0143B pro7.png
-P 14543B5D pro8.png
-P 7C170152 pro9.png
+P 7C170152 pro6.png
+P C7CE29DB pro7.png
+P 2770B84F txt.png
+D gameLevelBox
+P 6124B417 pro1.png
+P CB58C389 pro2.png
+P 99B3D97C pro3.png
+P 08306B37 pro4.png
+P 7B9959C1 pro5.png
 P 89B3C622 time1.png
 P 1A801C4D time2.png
 P D75D3407 time3.png
-P 2770B84F txt.png
 D gameTipsBox
 P 09B833B2 index_close.png
 P 27005BA7 index_des_bg.png

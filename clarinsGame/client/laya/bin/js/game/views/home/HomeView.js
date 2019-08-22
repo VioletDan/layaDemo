@@ -98,6 +98,7 @@ var HomeView = /** @class */ (function (_super) {
     };
     // 显示游戏盒子
     HomeView.prototype.showGameBox = function () {
+        GameLevelBoxControl.show();
         GameControl.show();
         HomeControl.hide();
     };

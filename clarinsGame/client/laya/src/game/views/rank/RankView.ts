@@ -62,7 +62,7 @@ class RankView extends App.BaseView {
 
     //==================== Event ====================
     private clickHandler(): void {
-        HomeControl.show();
+        GameControl.show();
     }
 
     private updateItem(cell: Laya.Box, index: any): void {

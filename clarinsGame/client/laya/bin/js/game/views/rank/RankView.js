@@ -68,7 +68,7 @@ var RankView = /** @class */ (function (_super) {
     };
     //==================== Event ====================
     RankView.prototype.clickHandler = function () {
-        HomeControl.show();
+        GameControl.show();
     };
     RankView.prototype.updateItem = function (cell, index) {
         console.log(cell, index);

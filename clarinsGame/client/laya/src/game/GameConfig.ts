@@ -29,4 +29,7 @@ class GameConfig {
     //Rank
     public static Rank = { url: "res/atlas/rank.atlas", type: Laya.Loader.ATLAS };
 
+    //gameLevelBox
+    public static gameLevelBox = { url: "res/atlas/gameLevelBox.atlas", type: Laya.Loader.ATLAS };
+    
 }

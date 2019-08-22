@@ -95,6 +95,7 @@ class HomeView extends App.BaseView {
 
      // 显示游戏盒子
      private showGameBox(): void {
+        GameLevelBoxControl.show()
         GameControl.show();
         HomeControl.hide()  
      }
