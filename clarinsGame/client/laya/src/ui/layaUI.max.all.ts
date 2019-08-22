@@ -122,7 +122,7 @@ module ui.views {
 }
 
 module ui.views {
-    export class GameTipsBoxUI extends Dialog {
+    export class GameTipBoxUI extends Dialog {
 		public closeBtn:Laya.Image;
 
         public static  uiView:any ={"type":"Dialog","props":{"width":750,"name":"bg","mouseThrough":true,"height":1334},"child":[{"type":"Box","props":{"y":21,"x":44,"name":"main"},"child":[{"type":"Image","props":{"x":295,"var":"closeBtn","skin":"gameTipsBox/index_close.png","name":"closeBtn"}},{"type":"Image","props":{"y":99,"skin":"gameTipsBox/index_des_bg.png"}}]}]};
@@ -130,7 +130,7 @@ module ui.views {
         createChildren():void {
         
             super.createChildren();
-            this.createView(ui.views.GameTipsBoxUI.uiView);
+            this.createView(ui.views.GameTipBoxUI.uiView);
 
         }
 

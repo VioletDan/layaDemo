@@ -89,7 +89,7 @@ var HomeView = /** @class */ (function (_super) {
     };
     // 显示游戏规则弹窗
     HomeView.prototype.showGameTipsModal = function () {
-        GameTipsBoxControl.show();
+        GameTipBoxControl.show();
     };
     // 显示游戏排行榜
     HomeView.prototype.showRankBox = function () {

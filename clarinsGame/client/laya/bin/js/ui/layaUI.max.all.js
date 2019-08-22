@@ -128,19 +128,19 @@ var ui;
 (function (ui) {
     var views;
     (function (views) {
-        var GameTipsBoxUI = /** @class */ (function (_super) {
-            __extends(GameTipsBoxUI, _super);
-            function GameTipsBoxUI() {
+        var GameTipBoxUI = /** @class */ (function (_super) {
+            __extends(GameTipBoxUI, _super);
+            function GameTipBoxUI() {
                 return _super.call(this) || this;
             }
-            GameTipsBoxUI.prototype.createChildren = function () {
+            GameTipBoxUI.prototype.createChildren = function () {
                 _super.prototype.createChildren.call(this);
-                this.createView(ui.views.GameTipsBoxUI.uiView);
+                this.createView(ui.views.GameTipBoxUI.uiView);
             };
-            GameTipsBoxUI.uiView = { "type": "Dialog", "props": { "width": 750, "name": "bg", "mouseThrough": true, "height": 1334 }, "child": [{ "type": "Box", "props": { "y": 21, "x": 44, "name": "main" }, "child": [{ "type": "Image", "props": { "x": 295, "var": "closeBtn", "skin": "gameTipsBox/index_close.png", "name": "closeBtn" } }, { "type": "Image", "props": { "y": 99, "skin": "gameTipsBox/index_des_bg.png" } }] }] };
-            return GameTipsBoxUI;
+            GameTipBoxUI.uiView = { "type": "Dialog", "props": { "width": 750, "name": "bg", "mouseThrough": true, "height": 1334 }, "child": [{ "type": "Box", "props": { "y": 21, "x": 44, "name": "main" }, "child": [{ "type": "Image", "props": { "x": 295, "var": "closeBtn", "skin": "gameTipsBox/index_close.png", "name": "closeBtn" } }, { "type": "Image", "props": { "y": 99, "skin": "gameTipsBox/index_des_bg.png" } }] }] };
+            return GameTipBoxUI;
         }(Dialog));
-        views.GameTipsBoxUI = GameTipsBoxUI;
+        views.GameTipBoxUI = GameTipBoxUI;
     })(views = ui.views || (ui.views = {}));
 })(ui || (ui = {}));
 (function (ui) {

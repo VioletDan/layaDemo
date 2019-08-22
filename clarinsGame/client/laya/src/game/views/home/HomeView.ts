@@ -84,7 +84,7 @@ class HomeView extends App.BaseView {
     }
      // 显示游戏规则弹窗
      private showGameTipsModal(): void {
-        GameTipsBoxControl.show()
+        GameTipBoxControl.show()
      }
 
      // 显示游戏排行榜

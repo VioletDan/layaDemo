@@ -1,9 +1,9 @@
-class GameTipsBoxView extends App.BaseView {
+class GameTipBoxView extends App.BaseView {
 
-    private ui: ui.views.GameTipsBoxUI;
+    private ui: ui.views.GameTipBoxUI;
 
     constructor() {
-        super('GameTipsBoxView');
+        super('GameTipBoxView');
     }
 
 
@@ -18,7 +18,7 @@ class GameTipsBoxView extends App.BaseView {
     //页面准备好了
     public onReady(): void {
         //初始化UI
-        this.ui = new ui.views.GameTipsBoxUI();
+        this.ui = new ui.views.GameTipBoxUI();
         //注册UI兼容调整
         this.regUI(this.ui);
         this.addChild(this.ui);
@@ -41,7 +41,7 @@ class GameTipsBoxView extends App.BaseView {
 
     }
 
-    //==================== Private ====================
+   //==================== Private ====================
 
     //事件监听
     private addEvent(): void {

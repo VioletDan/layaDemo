@@ -1,13 +1,13 @@
-class GameTipsBoxControl{
+class GameTipBoxControl{
 
     //view
-    private static view:GameTipsBoxView;
+    private static view:GameTipBoxView;
 
     /**
      * 显示
      */
     public static show():void{
-        this.view = new GameTipsBoxView();
+        this.view = new GameTipBoxView();
         App.UI.open(this.view);
     }
 
