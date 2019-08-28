@@ -19,6 +19,7 @@ var GameMain = /** @class */ (function () {
         Laya.SoundManager.autoStopMusic = false;
         //开启统计信息
         Laya.Stat.show(0, 0);
+        Plug.init();
         //设置图片的加载路径
         // Laya.URL.basePath = '';
         //设置服务器域名
@@ -42,7 +43,9 @@ var GameMain = /** @class */ (function () {
         resource.push(GameConfig.Result);
         resource.push(GameConfig.gameTipsBox); //弹窗规则
         resource.push(GameConfig.Rank); //排行榜
-        resource.push(GameConfig.gameLevelBox); //游戏提示
+        resource.push(GameConfig.gameLevelBox); //游戏提示.
+        // let mm = new DandanView();
+        console.log(Plug.Dayjs().format());
         //这里添加默认的组件UI 如果有默认进入首页 建议在这里加上 首页的素材
         Laya.loader.load(resource, Laya.Handler.create(this, this.onComplete), Laya.Handler.create(this, this.onLoading));
     };
@@ -63,8 +66,9 @@ var GameMain = /** @class */ (function () {
         //查看微信用户信息
         Log.trace(App.WX.userInfo);
         //显示首页
-        HomeControl.show();
+        // HomeControl.show();
         // DemoControl.show();
+        DandanControl.show();
     };
     return GameMain;
 }());

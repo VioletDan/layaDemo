@@ -83,7 +83,7 @@ var ui;
                 _super.prototype.createChildren.call(this);
                 this.createView(ui.views.DandanUI.uiView);
             };
-            DandanUI.uiView = { "type": "View", "props": { "width": 750, "height": 1334 }, "child": [{ "type": "Rect", "props": { "y": 10, "x": 10, "width": 750, "lineWidth": 1, "height": 1334, "fillColor": "#d2ffd4" } }, { "type": "Image", "props": { "y": 450, "x": 158, "skin": "dandan/avatar.jpg" } }, { "type": "Button", "props": { "y": 918, "x": 214, "width": 294, "var": "btn", "skin": "comp/button.png", "sizeGrid": "6,12,6,12", "label": "label", "height": 134 } }] };
+            DandanUI.uiView = { "type": "View", "props": { "width": 750, "height": 1334 }, "child": [{ "type": "Rect", "props": { "y": 0, "x": 0, "width": 750, "lineWidth": 1, "height": 1334, "fillColor": "#000" } }, { "type": "Sprite", "props": { "y": 0, "x": 0, "width": 448, "var": "ape", "name": "ape", "height": 152 } }, { "type": "Sprite", "props": { "y": 467, "x": 259, "width": 263, "var": "pentagram", "name": "pentagram", "height": 221 } }] };
             return DandanUI;
         }(View));
         views.DandanUI = DandanUI;

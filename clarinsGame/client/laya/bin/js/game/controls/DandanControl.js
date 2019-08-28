@@ -7,6 +7,26 @@ var DandanControl = /** @class */ (function () {
     DandanControl.show = function () {
         this.view = new DandanView();
         App.UI.open(this.view, 'rightIn', false);
+        var dd1 = new DandanView();
+        // dd1.graphics.drar
+        dd1.dandan = '丹丹1号';
+        var dd2 = new DandanView();
+        dd2.dandan = '丹丹2号';
+        var dd3 = new DandanView();
+        dd3.dandan = '丹丹3号';
+        var dd4 = new DandanView();
+        dd4.dandan = '丹丹4号';
+        dd1.say('吃饭了');
+        dd2.say('上班了');
+        dd3.say('回家了');
+        dd4.say('下班了');
+        console.log(dd1);
+        // DandanView
+        // App.Ajax
+        // new HomeView();
+        // let img:Laya.Image = new Laya.Text();
+        // let img = new Text();
+        // DandanView.
     };
     /**
      * 隐藏

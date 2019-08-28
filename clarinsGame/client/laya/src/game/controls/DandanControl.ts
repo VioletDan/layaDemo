@@ -9,6 +9,36 @@ class DandanControl{
     public static show():void{
         this.view = new DandanView();
         App.UI.open(this.view, 'rightIn', false);
+
+        let dd1:DandanView = new DandanView();
+        // dd1.graphics.drar
+        dd1.dandan = '丹丹1号';
+        
+        let dd2:DandanView = new DandanView();
+        dd2.dandan = '丹丹2号';
+
+        let dd3:DandanView = new DandanView();
+        dd3.dandan = '丹丹3号';
+        
+        let dd4:DandanView = new DandanView();
+        dd4.dandan = '丹丹4号';
+
+        dd1.say('吃饭了');
+        dd2.say('上班了');
+        dd3.say('回家了');
+        dd4.say('下班了');
+        console.log(dd1);
+
+        // DandanView
+        // App.Ajax
+        // new HomeView();
+
+
+        // let img:Laya.Image = new Laya.Text();
+        // let img = new Text();
+
+        // DandanView.
+
     }
 
     /**

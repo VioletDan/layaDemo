@@ -14,10 +14,16 @@ var __extends = (this && this.__extends) || (function () {
 var DandanView = /** @class */ (function (_super) {
     __extends(DandanView, _super);
     function DandanView() {
-        return _super.call(this, 'DandanView') || this;
+        var _this = _super.call(this, 'DandanView') || this;
+        _this.scaleDelta = 0;
+        _this.dandan = '';
+        return _this;
     }
+    //==================== Public ====================
+    DandanView.prototype.say = function (value) {
+        console.log(this.dandan + value);
+    };
     Object.defineProperty(DandanView.prototype, "resource", {
-        //==================== Public ====================
         /**
          * 获取要加载的素材 没有就不管 有就添加
          */
@@ -36,6 +42,7 @@ var DandanView = /** @class */ (function (_super) {
         this.addChild(this.ui);
         //添加事件
         this.addEvent();
+        this.init();
     };
     //页面关闭 
     DandanView.prototype.onClose = function () {
@@ -52,13 +59,54 @@ var DandanView = /** @class */ (function (_super) {
     //==================== Private ====================
     //事件监听
     DandanView.prototype.addEvent = function () {
-        this.ui.btn.on(Laya.Event.CLICK, this, this.btnClick);
     };
     //事件移除
     DandanView.prototype.removeEvent = function () {
-        this.ui.btn.off(Laya.Event.CLICK, this, this.btnClick);
     };
     //==================== Event ====================
+    DandanView.prototype.init = function () {
+        this.createApe();
+        this.drawPentagram();
+    };
+    DandanView.prototype.drawPentagram = function () {
+        var path = [];
+        // path.push(-70,0)
+        // path.push(-35,0)
+        // path.push(0,70)
+        // path.push(35,0)
+        // path.push(70,0)
+        // path.push(35,-35)
+        // path.push(35,-105)
+        // path.push(0,-70)
+        // path.push(-35,-105)
+        // path.push(-35,-35)
+        path.push(0, -130);
+        path.push(33, -33);
+        path.push(137, -30);
+        path.push(55, 32);
+        path.push(85, 130);
+        path.push(0, 73);
+        path.push(-85, 130);
+        path.push(-55, 32);
+        path.push(-137, -30);
+        path.push(-33, -33);
+        this.ui.pentagram.graphics.drawPoly(0, 0, path, "#FF7F50");
+    };
+    DandanView.prototype.createApe = function () {
+        var img = new Laya.Image();
+        img.skin = 'dandan/avatar.jpg';
+        this.ui.ape.addChild(img);
+        this.ui.ape.x = Laya.stage.width / 2;
+        this.ui.ape.y = Laya.stage.height / 2;
+        Laya.timer.frameLoop(1, this, this.animate);
+    };
+    DandanView.prototype.animate = function () {
+        this.ui.ape.rotation += 2;
+        //心跳缩放
+        this.scaleDelta += 0.02;
+        var scaleValue = Math.sin(this.scaleDelta);
+        this.ui.ape.scale(scaleValue, scaleValue);
+    };
     DandanView.prototype.btnClick = function (e) {
         GameData.score = 10;
         //关闭自己
