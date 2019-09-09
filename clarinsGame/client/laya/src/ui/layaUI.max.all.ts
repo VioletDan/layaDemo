@@ -68,8 +68,11 @@ module ui.views {
     export class DandanUI extends View {
 		public ape:Laya.Sprite;
 		public pentagram:Laya.Sprite;
+		public magnifierBg:Laya.Sprite;
+		public bg:Laya.Image;
+		public magnifier:Laya.Sprite;
 
-        public static  uiView:any ={"type":"View","props":{"width":750,"height":1334},"child":[{"type":"Rect","props":{"y":0,"x":0,"width":750,"lineWidth":1,"height":1334,"fillColor":"#000"}},{"type":"Sprite","props":{"y":0,"x":0,"width":448,"var":"ape","name":"ape","height":152}},{"type":"Sprite","props":{"y":467,"x":259,"width":263,"var":"pentagram","name":"pentagram","height":221}}]};
+        public static  uiView:any ={"type":"View","props":{"width":750,"height":1334},"child":[{"type":"Rect","props":{"y":0,"x":0,"width":750,"name":"bg","lineWidth":1,"height":1334,"fillColor":"#000"}},{"type":"Sprite","props":{"y":0,"x":0,"width":448,"var":"ape","name":"ape","height":152}},{"type":"Sprite","props":{"y":467,"x":259,"width":263,"var":"pentagram","name":"pentagram","height":221}},{"type":"Sprite","props":{"width":750,"var":"magnifierBg","name":"bg","height":1334},"child":[{"type":"Image","props":{"y":0,"x":0,"width":750,"var":"bg","skin":"dandan/bg.jpg","name":"bg","height":1334}}]},{"type":"Sprite","props":{"y":0,"x":0,"width":100,"var":"magnifier","renderType":"mask","name":"magnifier","height":100},"child":[{"type":"Image","props":{"y":0,"x":0,"width":100,"skin":"dandan/mask.png","height":100}}]}]};
         constructor(){ super()}
         createChildren():void {
         
@@ -84,7 +87,7 @@ module ui.views {
 module ui.views {
     export class DemoUI extends View {
 
-        public static  uiView:any ={"type":"View","props":{"width":750,"height":1334},"child":[{"type":"Button","props":{"y":624,"x":302,"skin":"comp/button.png","label":"label"}}]};
+        public static  uiView:any ={"type":"View","props":{"width":750,"name":"bg","height":1334},"child":[{"type":"Button","props":{"y":624,"x":302,"skin":"comp/button.png","label":"label"}}]};
         constructor(){ super()}
         createChildren():void {
         

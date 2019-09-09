@@ -2,7 +2,7 @@
     "x":0,
     "type":"View",
     "selectedBox":1,
-    "selecteID":11,
+    "selecteID":15,
     "referenceLines":[
         {
             "value":-353,
@@ -59,7 +59,7 @@
             "compId":7,
             "child":[
                 ],
-            "$HIDDEN":true
+            "$HIDDEN":false
         },
         {
             "x":15,
@@ -74,30 +74,56 @@
             "compId":8,
             "child":[
                 ],
-            "$HIDDEN":true
+            "$HIDDEN":false
         },
         {
             "x":15,
             "type":"Sprite",
-            "props":{"width":750,"var":"magnifier","name":"bg","height":1334},
+            "props":{"width":750,"var":"magnifierBg","name":"bg","height":1334},
             "nodeParent":1,
-            "label":"Sprite(magnifier)",
-            "isOpen":true,
+            "label":"Sprite(magnifierBg)",
+            "isOpen":false,
             "isDirectory":true,
             "isAniNode":true,
             "hasChild":true,
             "compId":11,
             "child":[
                 {
+                    "type":"Image",
+                    "props":{"y":0,"x":0,"width":750,"var":"bg","skin":"dandan/bg.jpg","name":"bg","height":1334},
+                    "nodeParent":11,
+                    "label":"Image(bg)",
+                    "isDirectory":false,
+                    "isAniNode":true,
+                    "hasChild":false,
+                    "compId":14,
+                    "child":[
+                        ]
+                }],
+            "$HIDDEN":false
+        },
+        {
+            "x":15,
+            "type":"Sprite",
+            "props":{"y":0,"x":0,"width":100,"var":"magnifier","renderType":"mask","name":"magnifier","height":100},
+            "nodeParent":1,
+            "label":"Sprite(magnifier)",
+            "isOpen":false,
+            "isDirectory":true,
+            "isAniNode":true,
+            "hasChild":true,
+            "compId":15,
+            "child":[
+                {
                     "x":30,
                     "type":"Image",
-                    "props":{"y":0,"x":0,"skin":"dandan/bg.jpg"},
-                    "nodeParent":11,
+                    "props":{"y":0,"x":0,"width":100,"skin":"dandan/mask.png","height":100},
+                    "nodeParent":15,
                     "label":"Image",
                     "isDirectory":false,
                     "isAniNode":true,
                     "hasChild":false,
-                    "compId":13,
+                    "compId":16,
                     "child":[
                         ]
                 }]

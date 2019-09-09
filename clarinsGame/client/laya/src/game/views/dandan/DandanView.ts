@@ -4,6 +4,9 @@ class DandanView extends App.BaseView {
     private scaleDelta: number = 0
     public dandan: string = '';
 
+    private maskSp: Laya.Sprite
+    private bg2: Laya.Sprite
+
     constructor() {
         super('DandanView');
     }
@@ -60,7 +63,7 @@ class DandanView extends App.BaseView {
     private init(): void {
         this.createApe()
         this.drawPentagram()
-
+        this.magnifierSteup()
     }
     private drawPentagram() {
         let path: Array<number> = []
@@ -108,5 +111,12 @@ class DandanView extends App.BaseView {
         DandanControl.hide();
         //提示其他需要更新数据的页面更新
         HomeControl.update();
+    }
+    // 放大镜
+    private magnifierSteup(): void {
+        this.bg2 = this.ui.magnifierBg
+        this.maskSp = this.ui.magnifier
+        //设置mask
+        this.bg2.
     }
 }
