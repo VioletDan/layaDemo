@@ -1,33 +1,33 @@
 {
     "frames": {
-        "atlas.png": {
+        "List.png": {
             "frame": {
-                "h": 436,
+                "h": 87,
                 "idx": 0,
-                "w": 511,
+                "w": 640,
                 "x": 0,
-                "y": 0
+                "y": 89
             },
             "sourceSize": {
-                "h": 436,
-                "w": 511
+                "h": 87,
+                "w": 640
             },
             "spriteSourceSize": {
                 "x": 0,
                 "y": 0
             }
         },
-        "image.jpg": {
+        "Navigator.png": {
             "frame": {
-                "h": 300,
+                "h": 88,
                 "idx": 0,
-                "w": 300,
-                "x": 512,
+                "w": 640,
+                "x": 0,
                 "y": 0
             },
             "sourceSize": {
-                "h": 300,
-                "w": 300
+                "h": 88,
+                "w": 640
             },
             "spriteSourceSize": {
                 "x": 0,
@@ -36,7 +36,7 @@
         }
     },
     "meta": {
-        "image": "res.png",
-        "prefix": "res/"
+        "image": "template.png",
+        "prefix": "template/"
     }
 }

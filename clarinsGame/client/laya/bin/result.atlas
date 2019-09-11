@@ -1,0 +1,93 @@
+{
+    "frames": {
+        "result_panit.png": {
+            "frame": {
+                "h": 459,
+                "idx": 0,
+                "w": 750,
+                "x": 1255,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 459,
+                "w": 750
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "result_shine.png": {
+            "frame": {
+                "h": 444,
+                "idx": 0,
+                "w": 723,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 751,
+                "w": 750
+            },
+            "spriteSourceSize": {
+                "x": 27,
+                "y": 40
+            }
+        },
+        "success_bg.png": {
+            "frame": {
+                "h": 721,
+                "idx": 0,
+                "w": 530,
+                "x": 724,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 721,
+                "w": 530
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "success_tip.png": {
+            "frame": {
+                "h": 523,
+                "idx": 0,
+                "w": 530,
+                "x": 0,
+                "y": 445
+            },
+            "sourceSize": {
+                "h": 524,
+                "w": 530
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 1
+            }
+        },
+        "success_tip_bg.png": {
+            "frame": {
+                "h": 408,
+                "idx": 0,
+                "w": 530,
+                "x": 1255,
+                "y": 460
+            },
+            "sourceSize": {
+                "h": 408,
+                "w": 530
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "result.png",
+        "prefix": "result/"
+    }
+}

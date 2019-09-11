@@ -1,0 +1,25 @@
+{
+    "frames": {
+        "bar bottom.png": {
+            "frame": {
+                "h": 88,
+                "idx": 0,
+                "w": 640,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 88,
+                "w": 640
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "Navigator.png",
+        "prefix": "template/Navigator/"
+    }
+}

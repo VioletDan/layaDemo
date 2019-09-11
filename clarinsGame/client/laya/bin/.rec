@@ -1,49 +1,63 @@
 D .
-R EE9CD5DC .rec
+R 71247FE7 .rec
 R 7F046949 code.js
+R A7A7635F common.atlas
+R C2BA2504 common.png
+R D5D7EB87 game.atlas
 R F4133E94 game.js
 R 62092628 game.json
-R 5FA7146D index.html
+R B1B32991 game.png
+R F3EB5C2E game1.png
+R A2A7A62F index.atlas
+R BE5B6BA6 index.html
+R 794BBCF7 index.png
 R 80A43895 project.config.json
-R 15025E0D res.atlas
-R 3DA0535D res.png
+R 6F9FBCA0 res.atlas
+R 68732604 res.png
+R D4E4F6A2 result.atlas
+R 839D9E4F result.png
 R 1DC03F4E share.jpg
 R 39B957DA texture.png
-R AD0AF9D unpack.json
+R D4CBB29 unpack.json
 R A3A6BF43 version.json
 R BB26A55F weapp-adapter.js
-D common
-R 36531CE0 share.png
-D game
-R 4905A7A0 fail_bg.png
-R 09BE6D80 game_axis_bg.png
-R 62B39C77 game_cloud.jpg
-R 17944FBA game_cloud.png
+D big
 R 35E5B99D game_cloud2.png
-R C99658F1 game_shine.png
-R F757690D level_tip1.png
-R 439CBEF3 level_tip2.png
-R B0ECD625 level_tip3.png
-R 89B3C622 time1.png
-R 1A801C4D time2.png
-R D75D3407 time3.png
-R 2770B84F txt.png
+R A8E74A62 result_bg.jpg
+R E286D466 result_fire.png
+D common
+P 36531CE0 share.png
+D game
+P 4905A7A0 fail_bg.png
+P 09BE6D80 game_axis_bg.png
+P 62B39C77 game_cloud.jpg
+P 17944FBA game_cloud.png
+R 35E5B99D game_cloud2.png
+P C99658F1 game_shine.png
+P F757690D level_tip1.png
+P 439CBEF3 level_tip2.png
+P B0ECD625 level_tip3.png
+P 89B3C622 time1.png
+P 1A801C4D time2.png
+P D75D3407 time3.png
+P 2770B84F txt.png
 D index
 R 299FDBD7 index_bg.jpg
-R A28B50C6 index_bowl.png
-R F69295F7 index_bowl2.png
-R C60EEE52 index_cloud.png
+P A28B50C6 index_bowl.png
+P F69295F7 index_bowl2.png
+P C60EEE52 index_cloud.png
 R F19BE1F3 index_des_bg.png
-R 6FC3414A index_pro.png
+P 6FC3414A index_pro.png
 R E837A2EC index_rank_bg.jpg
-R 3116950D index_rank_border.png
-R 75DBA818 index_shine.png
-R BEDFB90F index_title2.png
-R 2C3017FC share_pro.png
-R 2EBB57AA test_top.png
+P 3116950D index_rank_border.png
+P 75DBA818 index_shine.png
+P BEDFB90F index_title2.png
+P 2C3017FC share_pro.png
+P 2EBB57AA test_top.png
 D js
-R CDCC05CC LayaUISample.js
-R 4221E46E LayaUISample.js.map
+R F22F2D6B dayjs.min.js
+R 5CA9A7DD LayaUISample.js
+R EC582226 LayaUISample.js.map
 R 5EDD7CD4 test.js
 R 26983178 test.js.map
 D libs
@@ -70,27 +84,34 @@ R D4D0560D matter.js
 R 52868E9A protobuf.js
 R BE57EA76 worker.js
 D res
-R 64934247 atlas.atlas
-R F6D2CD8D atlas.png
+R 7D0A2E60 atlas.atlas
+P 84E1090E atlas.png
 P E4360D8E image.jpg
 D result
 R A8E74A62 result_bg.jpg
 R E286D466 result_fire.png
-R 47036614 result_panit.png
-R 4D32A121 result_shine.png
-R 2FBFCA78 success_bg.png
-R D588ABD5 success_tip.png
-R EA1312C8 success_tip_bg.png
+P 47036614 result_panit.png
+P 4D32A121 result_shine.png
+P 2FBFCA78 success_bg.png
+P D588ABD5 success_tip.png
+P EA1312C8 success_tip_bg.png
 D template
+R 22BFFC1E List.atlas
+P 124BFFBE List.png
+R A57E5A67 Navigator.atlas
+P 125144CE Navigator.png
+D views
+R 32BFAB2A ObjScale.ani
+R 9D36455C shine.ani
 D js/core
 R E152F940 App.js
 R 7E6F28F2 App.js.map
 D js/game
-R A16791A7 GameConfig.js
-R 695F5A74 GameConfig.js.map
+R 5B0EC9EA GameConfig.js
+R FF251BB3 GameConfig.js.map
 D js/ui
-R 80058248 layaUI.max.all.js
-R 7118FAF6 layaUI.max.all.js.map
+R 4C7C29C5 layaUI.max.all.js
+R F14CB123 layaUI.max.all.js.map
 D libs/min
 R 7492979E laya.ani.min.js
 R 6E881359 laya.bdmini.min.js
@@ -108,40 +129,61 @@ R EEF4CA93 laya.ui.min.js
 R 146A02A9 laya.webgl.min.js
 R D31045F2 laya.wxmini.min.js
 D res/atlas
-R 6CE3D1FC .rec
+R 57E6B2F2 .rec
+R DC0F02E2 big.atlas
+R 6229B0D7 big.png
+R 4676D1F7 big1.png
 R 625FEABC common.atlas
 P 46C0C1B5 common.png
 R 5997B9DE comp.atlas
 P ED1C722F comp.png
-R D5E7930E dandan.atlas
-P C48327A3 dandan.png
-R A0D6AA8A game.atlas
-R 9CF503D4 game.png
-R B004CB9F index.atlas
-R D5402CB3 index.png
-R 82B19A3F index1.png
+R D6AF4B8A dandan.atlas
+R 86A543DB dandan.png
+R 815F5ED0 game.atlas
+R 9995BE86 game.png
+R F6878DC2 game1.png
+R 7F9C5530 game2.png
+R 6C181FBD gameLevelBox.atlas
+R 18E72030 gameLevelBox.png
+R 2C771B4A gameTipsBox.atlas
+R 734A2F59 gameTipsBox.png
+R 8A7E5EF8 index.atlas
+R 10AD8C1A index.png
+R BC87DE5F index1.png
 R E380EC19 loading.atlas
 P A35CB568 loading.png
-R EB595B8D result.atlas
-R 913C04C7 result.png
-R 67BAB84D template.atlas
-P 3A7AD151 template.png
+R 803F426F rank.atlas
+R CDBE35A2 rank.png
+R 87EE819D result.atlas
+R E938FBB1 result.png
+R 1C9650CD template.atlas
+P 7A4BC6DE template.png
 D template/List
-R 11909C67 SimpleListBoxItemBackground.png
+P 11909C67 SimpleListBoxItemBackground.png
 D template/Navigator
-R EBE10BFB bar bottom.png
+P EBE10BFB bar bottom.png
 D js/core/manager
 R 8CBC7A36 Alert.js
 R D8F451A0 Alert.js.map
 D js/game/controls
-R 6868E0B6 DandanControl.js
-R EE82DB0D DandanControl.js.map
+R A2A9F403 DandanControl.js
+R 9036AB13 DandanControl.js.map
 R B7D16ED8 DemoControl.js
 R 19DB6F4C DemoControl.js.map
+R CD65ED3E GameControl.js
+R 2BC156C9 GameControl.js.map
+R 1841A6CE GameLevelBoxControl.js
+R 323AB9E5 GameLevelBoxControl.js.map
+R 63F4059C GameTipBoxControl.js
+R 2E522974 GameTipBoxControl.js.map
+R B93C4FCB gameTipsBoxControl.js
+R 848BCD36 gameTipsBoxControl.js.map
 R 8447800D HomeControl.js
 R 5BB72010 HomeControl.js.map
 R 84FD1377 LoadingControl.js
 R 37BEC5F6 LoadingControl.js.map
+R 30EB1742 ObjScaleControl.js
+R 231C8038 ObjScaleControl.js.map
 R 4DF7B795 RankControl.js
 R 21C58F63 RankControl.js.map
 D js/game/core
@@ -153,6 +195,8 @@ R C4A93A0D Log.js
 R 865EA89C Log.js.map
 R 6BBEE7C4 ObjectPool.js
 R D7E9B9A4 ObjectPool.js.map
+R DB9EE5B2 Plug.js
+R FC6B5B57 Plug.js.map
 D js/game/views
 R 5C811976 HomeView.js
 R E901522F HomeView.js.map
@@ -161,10 +205,10 @@ R B71F426E LoadingView.js.map
 R B53E4B55 RankView.js
 R AF5F7EBB RankView.js.map
 D res/atlas/template
-R DEB3D397 List.atlas
-P C5334214 List.png
-R 257F7AE0 Navigator.atlas
-P E9821CA7 Navigator.png
+R 87A3C082 List.atlas
+P 80215219 List.png
+R 924A0631 Navigator.atlas
+P E2B467D0 Navigator.png
 D js/game/core/base
 R 72F735D9 BaseClass.js
 R 1F9F69C5 BaseClass.js.map
@@ -200,20 +244,35 @@ R 991F9A0E TempControl.js.map
 R 50F3CF61 TempView.js
 R 408E8CA9 TempView.js.map
 D js/game/views/dandan
-R E5D5ABEF DandanView.js
-R BF1A6A8F DandanView.js.map
+R E1AC764D DandanView.js
+R E1017D60 DandanView.js.map
 D js/game/views/demo
 R 9C6C2B2E DemoView.js
 R CA1964E7 DemoView.js.map
+D js/game/views/game
+R 5E6EBFBC GameView.js
+R 53113887 GameView.js.map
+D js/game/views/gamelevelbox
+R 4F521F3E GameLevelBoxView.js
+R 9C132E95 GameLevelBoxView.js.map
+D js/game/views/gametipbox
+R 74DE18DF GameTipBoxView.js
+R 65DC4930 GameTipBoxView.js.map
+D js/game/views/gameTipsBox
+R A7E343E5 gameTipsBoxView.js
+R 58AB055A gameTipsBoxView.js.map
 D js/game/views/home
-R A9BC75FE HomeView.js
-R 794C1371 HomeView.js.map
+R 65BD0141 HomeView.js
+R C6D01993 HomeView.js.map
 D js/game/views/loading
 R C7B5C0EF LoadingView.js
 R 44721C1D LoadingView.js.map
+D js/game/views/objscale
+R 1125030B ObjScaleView.js
+R 22C47F17 ObjScaleView.js.map
 D js/game/views/rank
-R E4214C98 RankView.js
-R FF1A40CC RankView.js.map
+R 96A18E60 RankView.js
+R EE0F6EFD RankView.js.map
 D js/game/views/rarnk
 R EFE0CBB2 RankView.js
 R E53D2455 RankView.js.map

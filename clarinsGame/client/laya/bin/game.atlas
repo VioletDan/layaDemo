@@ -1,0 +1,212 @@
+{
+    "frames": {
+        "fail_bg.png": {
+            "frame": {
+                "h": 700,
+                "idx": 1,
+                "w": 565,
+                "x": 0,
+                "y": 636
+            },
+            "sourceSize": {
+                "h": 700,
+                "w": 567
+            },
+            "spriteSourceSize": {
+                "x": 1,
+                "y": 0
+            }
+        },
+        "game_axis_bg.png": {
+            "frame": {
+                "h": 51,
+                "idx": 1,
+                "w": 649,
+                "x": 566,
+                "y": 820
+            },
+            "sourceSize": {
+                "h": 51,
+                "w": 649
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "game_cloud.jpg": {
+            "frame": {
+                "h": 693,
+                "idx": 0,
+                "w": 750,
+                "x": 751,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 693,
+                "w": 750
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "game_cloud.png": {
+            "frame": {
+                "h": 461,
+                "idx": 0,
+                "w": 750,
+                "x": 0,
+                "y": 445
+            },
+            "sourceSize": {
+                "h": 693,
+                "w": 750
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 232
+            }
+        },
+        "game_shine.png": {
+            "frame": {
+                "h": 444,
+                "idx": 0,
+                "w": 750,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 751,
+                "w": 750
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 40
+            }
+        },
+        "level_tip1.png": {
+            "frame": {
+                "h": 622,
+                "idx": 1,
+                "w": 629,
+                "x": 1333,
+                "y": 648
+            },
+            "sourceSize": {
+                "h": 622,
+                "w": 629
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "level_tip2.png": {
+            "frame": {
+                "h": 647,
+                "idx": 1,
+                "w": 672,
+                "x": 1333,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 647,
+                "w": 672
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "level_tip3.png": {
+            "frame": {
+                "h": 635,
+                "idx": 1,
+                "w": 702,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 635,
+                "w": 702
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "time1.png": {
+            "frame": {
+                "h": 701,
+                "idx": 1,
+                "w": 629,
+                "x": 703,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 701,
+                "w": 629
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "time2.png": {
+            "frame": {
+                "h": 701,
+                "idx": 0,
+                "w": 672,
+                "x": 703,
+                "y": 907
+            },
+            "sourceSize": {
+                "h": 701,
+                "w": 672
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "time3.png": {
+            "frame": {
+                "h": 700,
+                "idx": 0,
+                "w": 702,
+                "x": 0,
+                "y": 907
+            },
+            "sourceSize": {
+                "h": 700,
+                "w": 702
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "txt.png": {
+            "frame": {
+                "h": 117,
+                "idx": 1,
+                "w": 711,
+                "x": 566,
+                "y": 702
+            },
+            "sourceSize": {
+                "h": 117,
+                "w": 716
+            },
+            "spriteSourceSize": {
+                "x": 5,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "game.png,game1.png",
+        "prefix": "game/"
+    }
+}

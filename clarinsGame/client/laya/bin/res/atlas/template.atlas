@@ -2,15 +2,15 @@
     "frames": {
         "List.png": {
             "frame": {
-                "h": 115,
+                "h": 179,
                 "idx": 0,
-                "w": 138,
-                "x": 121,
-                "y": 0
+                "w": 640,
+                "x": 0,
+                "y": 235
             },
             "sourceSize": {
-                "h": 115,
-                "w": 138
+                "h": 181,
+                "w": 640
             },
             "spriteSourceSize": {
                 "x": 0,
@@ -19,15 +19,15 @@
         },
         "Navigator.png": {
             "frame": {
-                "h": 145,
+                "h": 234,
                 "idx": 0,
-                "w": 120,
+                "w": 640,
                 "x": 0,
                 "y": 0
             },
             "sourceSize": {
-                "h": 145,
-                "w": 133
+                "h": 234,
+                "w": 640
             },
             "spriteSourceSize": {
                 "x": 0,

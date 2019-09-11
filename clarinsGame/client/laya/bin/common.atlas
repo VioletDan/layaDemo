@@ -1,0 +1,25 @@
+{
+    "frames": {
+        "share.png": {
+            "frame": {
+                "h": 175,
+                "idx": 0,
+                "w": 445,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 176,
+                "w": 640
+            },
+            "spriteSourceSize": {
+                "x": 175,
+                "y": 1
+            }
+        }
+    },
+    "meta": {
+        "image": "common.png",
+        "prefix": "common/"
+    }
+}

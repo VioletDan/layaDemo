@@ -1,0 +1,25 @@
+{
+    "frames": {
+        "SimpleListBoxItemBackground.png": {
+            "frame": {
+                "h": 87,
+                "idx": 0,
+                "w": 640,
+                "x": 0,
+                "y": 0
+            },
+            "sourceSize": {
+                "h": 87,
+                "w": 640
+            },
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "meta": {
+        "image": "List.png",
+        "prefix": "template/List/"
+    }
+}
